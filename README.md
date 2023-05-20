@@ -18,7 +18,7 @@ These are just a few examples of how probabilistic hyperlattices can be used in 
 
 ## Credits
 
-Created with GitHub Copilot Chat private beta and the Alive VS Code environment for Common Lisp,ß by "the Phoeron" Colin J.E. Lupton
+Created with GitHub Copilot Chat private beta and the Alive VS Code environment for Common Lisp, by "the Phoeron" Colin J.E. Lupton
 
 ## License
 
