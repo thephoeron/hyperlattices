@@ -1,3 +1,8 @@
+(in-package :hyperlattice)
+
+(defun puthash (key value table)
+  (setf (gethash key table) value))
+
 (defun merge-hash-tables (table1 table2)
   (let ((result (copy-hash-table table1)))
     (maphash (lambda (key value)

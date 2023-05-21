@@ -1,3 +1,5 @@
+(in-package :hyperlattice)
+
 ;; Define a function to compute the supremum of two lattices
 (defun hyperlattice-sup (a b)
   (make-instance 'hyperlattice :elements (merge-hash-tables (elements-of a) (elements-of b))

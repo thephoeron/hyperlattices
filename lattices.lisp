@@ -1,3 +1,5 @@
+(in-package :hyperlattice)
+
 ;; Define a function to compute the supremum of two elements
 (defun lattice-sup (a b)
   (if (eq a b)

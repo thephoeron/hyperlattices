@@ -1,7 +1,7 @@
 (in-package :cl-user)
 
 (defpackage probabilistic-hyperlattices
-    (:use cl)
+    (:use cl hyperlattice)
     (:export #:prob-hyperlattice-sup
              #:prob-hyperlattice-inf
              #:prob-hyperlattice
