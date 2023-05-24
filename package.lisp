@@ -4,4 +4,5 @@
   (:use cl alexandria)
   (:export #:puthash
            #:merge-hash-tables
-           #:intersection-hash-tables))
+           #:intersection-hash-tables
+           #:hash-keys))

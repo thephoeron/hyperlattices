@@ -56,8 +56,8 @@
     (dolist (element (hash-keys (elements-of prob-hyperlattice)))
       (let ((prob (reduce #'* (mapcar (lambda (lattice) (gethash element (elements-of lattice))) set))))
         (when (> prob 0)
-          (setf (gethash element result) prob)))))
-  (make-instance 'prob-hyperlattice :elements result :sup (sup-of prob-hyperlattice) :inf (inf-of prob-hyperlattice)))
+          (setf (gethash element result) prob))))
+    (make-instance 'prob-hyperlattice :elements result :sup (sup-of prob-hyperlattice) :inf (inf-of prob-hyperlattice))))
 
 ;; Define a function to compute the infimum of a set of probabilistic lattices
 (defun prob-hyperlattice-inf-set (prob-hyperlattice set)
@@ -65,8 +65,8 @@
     (dolist (element (hash-keys (elements-of prob-hyperlattice)))
       (let ((prob (reduce #'* (mapcar (lambda (lattice) (gethash element (elements-of lattice))) set))))
         (when (> prob 0)
-          (setf (gethash element result) prob)))))
-  (make-instance 'prob-hyperlattice :elements result :sup (sup-of prob-hyperlattice) :inf (inf-of prob-hyperlattice)))
+          (setf (gethash element result) prob))))
+    (make-instance 'prob-hyperlattice :elements result :sup (sup-of prob-hyperlattice) :inf (inf-of prob-hyperlattice))))
 
 ;; Define a function to compute the closure of a set of probabilistic lattices
 (defun prob-hyperlattice-closure (prob-hyperlattice set)

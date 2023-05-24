@@ -1,5 +1,13 @@
 (in-package :hyperlattice)
 
+(defun hash-keys (table)
+  (let ((keys nil))
+    (maphash (lambda (key value)
+               (declare (ignore value))
+               (push key keys))
+             table)
+    keys))
+
 (defun puthash (key value table)
   (setf (gethash key table) value))
 
