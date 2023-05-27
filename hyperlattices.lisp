@@ -1,4 +1,22 @@
-(in-package :hyperlattice)
+(in-package :cl-user)
+
+(defpackage hyperlattices
+  (:use cl hyperlattice/hash-table-utils)
+  (:export #:hyperlattice-sup
+           #:hyperlattice-inf
+           #:hyperlattice-add
+           #:hyperlattice-remove
+           #:hyperlattice-member-p
+           #:hyperlattice-sup-set
+           #:hyperlattice-inf-set
+           #:hyperlattice-closure
+           #:hyperlattice
+           #:elements-of
+           #:sup-of
+           #:inf-of)
+  (:documentation "A package for working with hyperlattices."))
+
+(in-package :hyperlattices)
 
 ;; Define a function to compute the supremum of two lattices
 (defun hyperlattice-sup (a b)

@@ -6,7 +6,7 @@ A probabilistic hyperlattice is a hyperlattice in which each element is associat
 
 ## Usage
 
-This library defines a class called `prob-hyperlattice` that represents a probabilistic hyperlattice with a hash table to store the elements and their probabilities, and functions to compute the supremum and infimum. It also defines functions to add, remove, and check if an element is in the probabilistic hyperlattice, as well as functions to compute the supremum, infimum, and closure of a set of probabilistic lattices.
+This library defines a package called `probabilistic-hyperlattices`, which exports a class called `prob-hyperlattice` that represents a probabilistic hyperlattice with a hash table to store the elements and their probabilities, and functions to compute the supremum and infimum. It also defines functions to add, remove, and check if an element is in the probabilistic hyperlattice, as well as functions to compute the supremum, infimum, and closure of a set of probabilistic lattices.
 
 You can create a new probabilistic hyperlattice by creating an instance of the `prob-hyperlattice` class and adding elements with their probabilities to it using the `prob-hyperlattice-add` function:
 

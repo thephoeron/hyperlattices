@@ -6,7 +6,7 @@ A hyperlattice is a generalization of a lattice in which the elements are themse
 
 ## Usage
 
-This library defines a class called `hyperlattice` that represents a hyperlattice with a hash table to store the elements, and functions to compute the supremum and infimum. It also defines functions to add, remove, and check if a lattice is in the hyperlattice, as well as functions to compute the supremum, infimum, and closure of a set of lattices.
+This library defines a package called `hyperlattices`, which exports a class called `hyperlattice` that represents an algebraic hyperlattice with a hash table to store the elements, and functions to compute the supremum and infimum. It also defines functions to add, remove, and check if a lattice is in the hyperlattice, as well as functions to compute the supremum, infimum, and closure of a set of lattices.
 
 You can create a new hyperlattice by creating an instance of the `hyperlattice` class and adding lattices to it using the `hyperlattice-add` function:
 

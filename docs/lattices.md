@@ -6,7 +6,7 @@ A lattice is a partially ordered set in which every two elements have a unique s
 
 ## Usage
 
-This implementation defines a class called `lattice` that represents a lattice with a hash table to store the elements, and functions to compute the supremum and infimum. It also defines functions to add, remove, and check if an element is in the lattice, as well as functions to compute the supremum, infimum, and closure of a set of elements.
+This implementation defines a package called `lattices`, which exports a class called `lattice` that represents an algebraic lattice with a hash table to store the elements, and functions to compute the supremum and infimum. It also defines functions to add, remove, and check if an element is in the lattice, as well as functions to compute the supremum, infimum, and closure of a set of elements.
 
 You can create a new lattice by creating an instance of the `lattice` class and adding elements to it using the `lattice-add` function:
 

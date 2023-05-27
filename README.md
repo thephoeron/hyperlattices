@@ -16,11 +16,34 @@ Probabilistic hyperlattices can be used in a variety of real-world applications,
 
 These are just a few examples of how probabilistic hyperlattices can be used in real-world applications. The flexibility and expressiveness of the hyperlattice data structure make it a powerful tool for modeling complex systems and making informed decisions in uncertain environments.
 
+## Documentation
+
+Documentation for the `hyperlattice` library is available at:
+
+https://thephoeron.github.io/hyperlattice/
+
+## Supported Implementations
+
+The `hyperlattice` library has been developed and tested on macOS for the following Common Lisp implementations:
+
+- [LispWorks 8.0.1](https://www.lispworks.com/)
+- [SBCL 2.3.4](https://www.sbcl.org/)
+
 ## Credits
 
-Created with GitHub Copilot Chat private beta and the Alive VS Code environment for Common Lisp, by "the Phoeron" Colin J.E. Lupton
+### Created with
+
+- [GitHub Copilot Chat][GitHubCopilotX] (Private Beta)
+- [Alive][AliveExtension] (the Average Lisp VS Code Environment)
+
+### Authors
+
+- ["the Phoeron" Colin J.E. Lupton][@thephoeron]
 
 ## License
 
-Copyright &copy; 2023, "the Phoeron" Colin J.E. Lupton. Released under the MIT License.
+Copyright &copy; 2023, ["the Phoeron" Colin J.E. Lupton][@thephoeron]. Released under the MIT License.
 
+[GitHubCopilotX]: https://github.com/features/preview/copilot-x
+[@thephoeron]: https://github.com/thephoeron
+[AliveExtension]: https://marketplace.visualstudio.com/items?itemName=rheller.alive

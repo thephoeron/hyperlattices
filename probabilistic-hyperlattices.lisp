@@ -1,7 +1,7 @@
 (in-package :cl-user)
 
 (defpackage probabilistic-hyperlattices
-    (:use cl hyperlattice)
+    (:use cl hyperlattice/hash-table-utils)
     (:export #:prob-hyperlattice-sup
              #:prob-hyperlattice-inf
              #:prob-hyperlattice
@@ -13,7 +13,8 @@
              #:prob-hyperlattice-member-p
              #:prob-hyperlattice-sup-set
              #:prob-hyperlattice-inf-set
-             #:prob-hyperlattice-closure))
+             #:prob-hyperlattice-closure)
+  (:documentation "This package implements probabilistic hyperlattices."))
 
 (in-package :probabilistic-hyperlattices)
 
