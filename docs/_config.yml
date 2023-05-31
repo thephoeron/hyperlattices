@@ -4,5 +4,4 @@ plugins:
 title: HYPERLATTICE
 description: Algebraic Lattice, Hyperlattice, and Probabilistic Hyperlattice
   Library for Common Lisp
-author: "the Phoeron" Colin J.E. Lupton
 logo: /assets/images/hyperlattice-logo-gothic.png
