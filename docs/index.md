@@ -29,5 +29,7 @@ This manual provides an overview of the interface and implementation of generali
 
 Disclaimer: this documentation has been generated using the [GitHub Copilot Chat](https://github.com/features/preview/copilot-x) private beta, and may contain errors or omissions. Please report any issues to the [GitHub repository](https://github.com/thephoeron/hyperlattice/issues).
 
+The Hyperlattice project logo generated with [Midjourney](https://www.midjourney.com) 5.1
+
 Copyright &copy; 2023, ["the Phoeron" Colin J.E. Lupton](https://thephoeron.github.io/). Released under the MIT License.
 
