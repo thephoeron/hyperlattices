@@ -50,7 +50,7 @@ Overall, using probabilistic hyperlattices to model uncertainty in a recommender
 
 ## Decision-Making Processes
 
-GitHub Copilot: Probabilistic hyperlattices can be used to model uncertainty and complexity in a decision-making process by representing the possible outcomes of a decision as elements in a hyperlattice and assigning probabilities to each element. Here's an example of how you can use probabilistic hyperlattices to model uncertainty in a decision-making process:
+Probabilistic hyperlattices can be used to model uncertainty and complexity in a decision-making process by representing the possible outcomes of a decision as elements in a hyperlattice and assigning probabilities to each element. Here's an example of how you can use probabilistic hyperlattices to model uncertainty in a decision-making process:
 
 1. Define the hyperlattice structure: The first step is to define the structure of the hyperlattice, including the elements and their relationships. For example, in a decision-making process for a self-driving car, the elements might be different actions that the car can take, such as accelerating, braking, or turning, and the relationships might be based on the possible outcomes of each action, such as reaching the destination safely or colliding with another vehicle.
 

@@ -10,8 +10,18 @@ This manual provides an overview of the interface and implementation of generali
 - [Hyperlattices](hyperlattices.md)
 - [Probabilistic Hyperlattices](probabilistic-hyperlattices.md)
 
+## Plotting Hyperlattices
+
+- [Overview](plotting.md)
+- [Plotting Lattices](plotting-lattices.md)
+- [Plotting Hyperlattices](plotting-hyperlattices.md)
+- [Plotting Probabilistic Hyperlattices](plotting-probabilistic-hyperlattices.md)
+
 ## Real-World Applications of Hyperlattices
 
+- [Hyperlattices for Distributed Computing](distributed-computing.md)
+- [Hyperlattices for Logic Programming and Theorem Proving](logic-programming.md)
+- [Hyperlattices for Homomorphic Encryption](homomorphic-encryption.md)
 - [Hyperlattices for Machine Learning](machine-learning.md)
     - [Applications of Hyperlattices in Machine Learning](machine-learning-applications.md)
     - [Advantages of Hyperlattices over Other Models](advantages-over-other-models.md)
