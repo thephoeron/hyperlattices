@@ -1,11 +1,11 @@
 (in-package :cl-user)
 
-(defpackage hyperlattice/asdf
+(defpackage hyperlattices/asdf
   (:use cl asdf uiop))
 
-(in-package :hyperlattice/asdf)
+(in-package :hyperlattices/asdf)
 
-(defsystem hyperlattice
+(defsystem hyperlattices
     :description "Algebraic lattice, hyperlattice, and probabilistic-hyperlattice datatypes."
     :author "\"the Phoeron\" Colin J.E. Lupton"
     :mailto "thephoeron@protonmail.com"
@@ -22,7 +22,7 @@
                  (:file "probabilistic-hyperlattices"))
     :in-order-to ((test-op (test-op :hyperlattice/test))))
 
-(defsystem hyperlattice/test
+(defsystem hyperlattices/test
     :description "Test suite for the Hyperlattice library."
     :author "\"the Phoeron\" Colin J.E. Lupton"
     :mailto "thephoeron@protonmail.com"
