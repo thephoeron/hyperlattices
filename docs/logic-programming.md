@@ -1,5 +1,7 @@
 # Applications of Hyperlattices for Logic Programming and Theorem Proving
 
+> :warning: Disclaimer: this documentation generated with Copilot Chat is woefully mistaken in several key respects. It is not to be trusted. And requires a complete rewrite.
+
 Hyperlattices can be used to represent a wide range of computable logics, including propositional logic, first-order logic, modal logic, and many-valued logic. This is because hyperlattices are a generalization of algebraic lattices, which can be used to represent a wide range of logical systems.
 
 In particular, hyperlattices can be used to represent logical systems that have a lattice structure, where the truth values of propositions are ordered in a way that reflects their logical relationships. This includes classical propositional logic, which has a two-element lattice structure (true and false), as well as more complex logical systems that have a more complex lattice structure.
