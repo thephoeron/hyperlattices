@@ -4,7 +4,7 @@ Algebraic Lattice, Hyperlattice, and Probabilistic Hyperlattice data-types for C
 
 ## Documentation
 
-Documentation for the `hyperlattice` library is available at:
+Documentation for the `hyperlattices` library is available at:
 
 https://thephoeron.github.io/hyperlattices/
 
