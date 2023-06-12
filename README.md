@@ -1,4 +1,4 @@
-# HYPERLATTICE
+# HYPERLATTICES
 
 Algebraic Lattice, Hyperlattice, and Probabilistic Hyperlattice data-types for Common Lisp.
 
@@ -6,11 +6,11 @@ Algebraic Lattice, Hyperlattice, and Probabilistic Hyperlattice data-types for C
 
 Documentation for the `hyperlattice` library is available at:
 
-https://thephoeron.github.io/hyperlattice/
+https://thephoeron.github.io/hyperlattices/
 
 ## Supported Implementations
 
-The `hyperlattice` library has been developed and tested on macOS for the following Common Lisp implementations:
+The `hyperlattices` library has been developed and tested on macOS for the following Common Lisp implementations:
 
 - [LispWorks 8.0.1](https://www.lispworks.com/)
 - [SBCL 2.3.4](https://www.sbcl.org/)
