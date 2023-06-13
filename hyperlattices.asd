@@ -6,17 +6,19 @@
 (in-package :hyperlattices/asdf)
 
 (defsystem hyperlattices
-    :description "Algebraic lattice, hyperlattice, and probabilistic-hyperlattice datatypes."
+    :description "Generalized Lattice datatypes, incl., lattices, hyperlattices, and probabilistic-hyperlattices."
     :author "\"the Phoeron\" Colin J.E. Lupton"
     :mailto "thephoeron@protonmail.com"
-    :homepage "https://thephoeron.github.io/hyperlattice/"
-    :source-control (:git "https://github.com/thephoeron/hyperlattice.git")
-    :bug-tracker "https:;//github.com/thephoeron/hyperlattice/issues"
+    :homepage "https://thephoeron.github.io/hyperlattices/"
+    :source-control (:git "https://github.com/thephoeron/hyperlattices.git")
+    :bug-tracker "https:;//github.com/thephoeron/hyperlattices/issues"
     :license "MIT"
     :version (:read-file-form "VERSION")
     :depends-on (alexandria)
     :serial t
-    :components ((:file "hash-table-utils")
+    :components ((:file "generic-interface")
+                 (:file "hash-table-utils")
+                 (:file "generalized-lattices")
                  (:file "lattices")
                  (:file "hyperlattices")
                  (:file "probabilistic-hyperlattices"))
@@ -26,9 +28,9 @@
     :description "Test suite for the Hyperlattice library."
     :author "\"the Phoeron\" Colin J.E. Lupton"
     :mailto "thephoeron@protonmail.com"
-    :homepage "https://thephoeron.github.io/hyperlattice/"
-    :source-control (:git "https://github.com/thephoeron/hyperlattice.git")
-    :bug-tracker "https:;//github.com/thephoeron/hyperlattice/issues"
+    :homepage "https://thephoeron.github.io/hyperlattices/"
+    :source-control (:git "https://github.com/thephoeron/hyperlattices.git")
+    :bug-tracker "https:;//github.com/thephoeron/hyperlattices/issues"
     :license "MIT"
     :version (:read-file-form "VERSION")
     :depends-on (hyperlattice parachute)
