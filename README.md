@@ -74,8 +74,8 @@ https://thephoeron.github.io/hyperlattices/
 - [ ] Implement `PROBABILISTIC-LATTICE` class and specialized methods
 - [ ] Implement Generic Function API over `GENERALIZED-LATTICE` class
 - [ ] Refactor `LATTICE` class and functions to inherit from `GENERALIZED-LATTICE` class and use Generic Function API
-- [ ] Refactor `HYPERLATTICE` class and functions to inherit from `GENERALIZED-LATTICE` class and use Generic Function API
-- [ ] Refactor `PROBABILISTIC-HYPERLATTICE` class and functions to inherit from `HYPERLATTICE` class and use Generic Function API
+- [ ] Refactor `HYPERLATTICE` class and functions to inherit from `LATTICE` class and use Generic Function API
+- [ ] Refactor `PROBABILISTIC-HYPERLATTICE` class and functions to inherit from `HYPERLATTICE` and `PROBABILISTIC-LATTICE` classes and use Generic Function API
 - [ ] Refactor library to use `BAPHOMET` package-as-type convention
 - [x] Publish `hyperlattices` on Ultralisp
 - [ ] Publish `hyperlattices` on Quicklisp
