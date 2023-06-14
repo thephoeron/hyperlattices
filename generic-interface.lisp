@@ -73,6 +73,12 @@
 (defgeneric merge (generalized-lattice)
   (:documentation ""))
 
+(defgeneric longest-chain-p (generalized-lattice)
+  (:documentation ""))
+
+(defgeneric largest-antichain-p (generalized-lattice)
+  (:documentation ""))
+
 (defgeneric homomorphic-p (generalized-lattice)
   (:documentation ""))
 

@@ -51,6 +51,10 @@ graph TB
 
 `merge`
 
+`longest-chain-p`
+
+`largest-antichain-p`
+
 `homomorphic-p`
 
 `isomorphic-p`
