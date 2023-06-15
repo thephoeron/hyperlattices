@@ -19,6 +19,8 @@
            #:antichain
            #:slice
            #:merge
+           #:longest-chain-p
+           #:largest-antichain-p
            #:homomorphic-p
            #:isomorphic-p
            #:congruent-p))
