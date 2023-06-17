@@ -1,5 +1,7 @@
 # Hyperlattices: User's Guide
 
+> :warning: Disclaimer: this documentation has been generated using the [GitHub Copilot Chat](https://github.com/features/preview/copilot-x) private beta, and may contain errors or omissions. Please report any issues to the [GitHub repository](https://github.com/thephoeron/hyperlattices/issues).
+
 The `HYPERLATTICES` library provides Generalized Lattice data-types for Common Lisp, including Algebraic Lattices, Hyperlattices, and Probabilistic Hyperlattices.
 
 This manual provides an overview of the interface and implementation of generalized lattices, the use of included generic function interface for manipulating these data-types, and many examples of their real-world applications, including example source-code and algorithm specifications.
@@ -37,9 +39,9 @@ This manual provides an overview of the interface and implementation of generali
 
 ---
 
-> Disclaimer: this documentation has been generated using the [GitHub Copilot Chat](https://github.com/features/preview/copilot-x) private beta, and may contain errors or omissions. Please report any issues to the [GitHub repository](https://github.com/thephoeron/hyperlattices/issues).
-
 The Hyperlattice project logo generated with [Midjourney](https://www.midjourney.com) 5.1
 
 Copyright &copy; 2023, ["the Phoeron" Colin J.E. Lupton](https://thephoeron.github.io/). Released under the MIT License.
+
+Back to [//thephoeron.github.io](https://thephoeron.github.io)
 
