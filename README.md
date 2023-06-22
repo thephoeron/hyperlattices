@@ -1,5 +1,8 @@
 # HYPERLATTICES
 
+[![Quicklisp](https://quickdocs.org/badge/hyperlattices.svg)](https://quickdocs.org/hyperlattices/)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
 Generalized Lattice data-types for Common Lisp, including Algebraic Lattices, Hyperlattices, and Probabilistic Hyperlattices, which intends to follow the packages-as-types convention (as defined by the [BAPHOMET][] library).
 
 > :warning: **This library is a work in progress. Things will be added. Things will be removed. Things will change. Things will blow up. Embrace the uncertainty.**
@@ -126,7 +129,9 @@ Springer Series in Solid-State Sciences, Vol. 20.
 
 ## License
 
-Copyright &copy; 2023, ["the Phoeron" Colin J.E. Lupton][@thephoeron]. Released under the MIT License.
+Copyright &copy; 2023, ["the Phoeron" Colin J.E. Lupton][@thephoeron].
+
+Released under the MIT License. See [`LICENSE`](./LICENSE) for details.
 
 [GitHubCopilotX]: https://github.com/features/preview/copilot-x
 [@thephoeron]: https://github.com/thephoeron
