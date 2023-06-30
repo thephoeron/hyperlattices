@@ -1,8 +1,8 @@
 (in-package :cl-user)
 
 (defpackage hyperlattices/generic-interface
-  (:nicknames hyperlattices/api hl-api)
-  (:use cl)
+  (:nicknames hyperlattices/api hl/api hl-api)
+  (:use c2cl)
   (:export #:supremum
            #:infimum
            #:join
@@ -23,7 +23,8 @@
            #:largest-antichain-p
            #:homomorphic-p
            #:isomorphic-p
-           #:congruent-p))
+           #:congruent-p)
+  (:documentation "This package defines the generic interface for all Generalized Lattice algebraic datatypes."))
 
 (in-package :hyperlattices/api)
 

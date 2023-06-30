@@ -2,20 +2,23 @@
 
 (defpackage hyperlattices/probabilistic-hyperlattice
   (:nicknames probabilistic-hyperlattice)
-    (:use cl hyperlattices/hash-table-utils)
-    (:export #:prob-hyperlattice-sup
-             #:prob-hyperlattice-inf
-             #:prob-hyperlattice
-             #:elements-of
-             #:sup-of
-             #:inf-of
-             #:prob-hyperlattice-add
-             #:prob-hyperlattice-remove
-             #:prob-hyperlattice-member-p
-             #:prob-hyperlattice-sup-set
-             #:prob-hyperlattice-inf-set
-             #:prob-hyperlattice-closure)
-  (:documentation "This package implements probabilistic hyperlattices."))
+  (:use c2cl
+        hyperlattices/hash-table-utils
+        hyperlattices/generic-interface
+        hyperlattices/generalized-lattice)
+  (:export #:prob-hyperlattice-sup
+           #:prob-hyperlattice-inf
+           #:prob-hyperlattice
+           #:elements-of
+           #:sup-of
+           #:inf-of
+           #:prob-hyperlattice-add
+           #:prob-hyperlattice-remove
+           #:prob-hyperlattice-member-p
+           #:prob-hyperlattice-sup-set
+           #:prob-hyperlattice-inf-set
+           #:prob-hyperlattice-closure)
+  (:documentation "Implementation of PROBABILISTIC-HYPERLATTICE algebraic datatype's type class and method specializations."))
 
 (in-package :hyperlattices/probabilistic-hyperlattice)
 

@@ -2,7 +2,10 @@
 
 (defpackage hyperlattices/lattice
   (:nicknames lattice)
-  (:use cl hyperlattices/hash-table-utils)
+  (:use c2cl
+        hyperlattices/hash-table-utils
+        hyperlattices/generic-interface
+        hyperlattices/generalized-lattice)
   (:export #:lattice-sup
            #:lattice-inf
            #:lattice
@@ -15,7 +18,7 @@
            #:elements-of
            #:sup-of
            #:inf-of)
-  (:documentation "A package implementing the algebraic lattice datatype."))
+  (:documentation "Implementation of LATTICE algebraic datatype's type class and method specializations."))
 
 (in-package :hyperlattices/lattice)
 

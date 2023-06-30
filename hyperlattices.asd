@@ -7,7 +7,7 @@
 (in-package :hyperlattices/asdf)
 
 (defsystem hyperlattices
-    :description "Generalized Lattice algebraic datatypes, incl., lattice, hyperlattice, probabilistic-lattice, and probabilistic-hyperlattice."
+    :description "Generalized Lattice algebraic datatypes, incl., LATTICE, HYPERLATTICE, PROBABILISTIC-LATTICE, and PROBABILISTIC-HYPERLATTICE."
     :author "\"the Phoeron\" Colin J.E. Lupton"
     :mailto "thephoeron@protonmail.com"
     :homepage "https://thephoeron.github.io/hyperlattices/"
@@ -31,7 +31,7 @@
     :in-order-to ((test-op (test-op :hyperlattices/test))))
 
 (defsystem hyperlattices/test
-    :description "Test suite for the Hyperlattice library."
+    :description "PARACHUTE-powered test suite for the HYPERLATTICES library."
     :author "\"the Phoeron\" Colin J.E. Lupton"
     :mailto "thephoeron@protonmail.com"
     :homepage "https://thephoeron.github.io/hyperlattices/"

@@ -1,11 +1,12 @@
 (in-package :cl-user)
 
 (defpackage hyperlattices/hash-table-utils
-  (:use cl alexandria)
+  (:use c2cl alexandria serapeum)
   (:export #:puthash
            #:merge-hash-tables
            #:intersection-hash-tables
-           #:hash-keys))
+           #:hash-keys)
+  (:documentation "Utilities for working with hash tables within algebraic datatypes."))
 
 (in-package :hyperlattices/hash-table-utils)
 

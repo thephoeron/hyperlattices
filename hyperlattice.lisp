@@ -2,7 +2,10 @@
 
 (defpackage hyperlattices/hyperlattice
   (:nicknames hyperlattice)
-  (:use cl hyperlattices/hash-table-utils)
+  (:use c2cl
+        hyperlattices/hash-table-utils
+        hyperlattices/generic-interface
+        hyperlattices/generalized-lattice)
   (:export #:hyperlattice-sup
            #:hyperlattice-inf
            #:hyperlattice-add
@@ -15,7 +18,7 @@
            #:elements-of
            #:sup-of
            #:inf-of)
-  (:documentation "A package for working with hyperlattices."))
+  (:documentation "Implementation of HYPERLATTICE algebraic datatype's type class and method specializations."))
 
 (in-package :hyperlattices/hyperlattice)
 
