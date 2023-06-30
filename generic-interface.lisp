@@ -1,7 +1,7 @@
 (in-package :cl-user)
 
-(defpackage hyperlattices/api
-  (:nicknames hl-api)
+(defpackage hyperlattices/generic-interface
+  (:nicknames hyperlattices/api hl-api)
   (:use cl)
   (:export #:supremum
            #:infimum

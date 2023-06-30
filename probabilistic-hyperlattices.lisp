@@ -1,7 +1,8 @@
 (in-package :cl-user)
 
-(defpackage probabilistic-hyperlattices
-    (:use cl hyperlattice/hash-table-utils)
+(defpackage hyperlattices/probabilistic-hyperlattice
+  (:nicknames probabilistic-hyperlattice)
+    (:use cl hyperlattices/hash-table-utils)
     (:export #:prob-hyperlattice-sup
              #:prob-hyperlattice-inf
              #:prob-hyperlattice
@@ -16,7 +17,7 @@
              #:prob-hyperlattice-closure)
   (:documentation "This package implements probabilistic hyperlattices."))
 
-(in-package :probabilistic-hyperlattices)
+(in-package :hyperlattices/probabilistic-hyperlattice)
 
 ;; Define a function to compute the supremum of two probabilistic lattices
 (defun prob-hyperlattice-sup (a b)

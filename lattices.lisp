@@ -1,7 +1,8 @@
 (in-package :cl-user)
 
-(defpackage lattices
-  (:use cl hyperlattice/hash-table-utils)
+(defpackage hyperlattices/lattice
+  (:nicknames lattice)
+  (:use cl hyperlattices/hash-table-utils)
   (:export #:lattice-sup
            #:lattice-inf
            #:lattice
@@ -16,7 +17,7 @@
            #:inf-of)
   (:documentation "A package implementing the algebraic lattice datatype."))
 
-(in-package :lattices)
+(in-package :hyperlattices/lattice)
 
 ;; Define a function to compute the supremum of two elements
 (defun lattice-sup (a b)

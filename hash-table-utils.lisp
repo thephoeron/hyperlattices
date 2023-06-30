@@ -1,13 +1,13 @@
 (in-package :cl-user)
 
-(defpackage hyperlattice/hash-table-utils
+(defpackage hyperlattices/hash-table-utils
   (:use cl alexandria)
   (:export #:puthash
            #:merge-hash-tables
            #:intersection-hash-tables
            #:hash-keys))
 
-(in-package :hyperlattice/hash-table-utils)
+(in-package :hyperlattices/hash-table-utils)
 
 (defun hash-keys (table)
   (let ((keys nil))
