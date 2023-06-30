@@ -1,15 +1,15 @@
 (in-package :cl-user)
 
-(defpackage hyperlattice/test
+(defpackage hyperlattices/test
   (:use cl asdf parachute)
-  (:export #:run-all-tests))
+  (:export #:hyperlattices-test-suite))
 
-(in-package :hyperlattice/test)
+(in-package :hyperlattices/test)
 
-(define-test hyperlattice-test-suite)
+(define-test hyperlattices-test-suite)
 
-(define-test (hyperlattice-test-suite sanity-check)
+(define-test (hyperlattices-test-suite sanity-check)
   (is = 1 1)
   (isnt = 1 2))
 
-(test 'hyperlattice-test-suite)
+(test 'hyperlattices-test-suite)
