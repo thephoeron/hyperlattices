@@ -70,23 +70,23 @@
 (defgeneric antichain (generalized-lattice)
   (:documentation ""))
 
-(defgeneric slice (generalized-lattice)
+(defgeneric slice (generalized-lattice sublattice)
   (:documentation ""))
 
-(defgeneric merge (generalized-lattice)
+(defgeneric merge (generalized-lattice &rest generalized-lattices)
   (:documentation ""))
 
-(defgeneric longest-chain-p (generalized-lattice)
+(defgeneric longest-chain-p (generalized-lattice chain)
   (:documentation ""))
 
-(defgeneric largest-antichain-p (generalized-lattice)
+(defgeneric largest-antichain-p (generalized-lattice chain)
   (:documentation ""))
 
-(defgeneric homomorphic-p (generalized-lattice)
+(defgeneric homomorphic-p (lhs rhs)
   (:documentation ""))
 
-(defgeneric isomorphic-p (generalized-lattice)
+(defgeneric isomorphic-p (lhs rhs)
   (:documentation ""))
 
-(defgeneric congruent-p (generalized-lattice)
+(defgeneric congruent-p (lhs rhs)
   (:documentation ""))
