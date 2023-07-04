@@ -32,7 +32,6 @@
         (let ((sublattice (apply #'join sublattices)))
           (make-instance (class-of gl) :elements (elements sublattice) :sublattices (list sublattice))))))
 
-
 (defmethod meet ((gl generalized-lattice) &rest gls)
   (let ((sublattices (mapcar #'sublattices (cons gl gls)))
         (elements (mapcar #'elements (cons gl gls))))
@@ -40,7 +39,6 @@
         (make-instance (class-of gl) :elements (reduce #'intersection elements))
         (let ((sublattice (apply #'meet sublattices)))
           (make-instance (class-of gl) :elements (elements sublattice) :sublattices (list sublattice))))))
-
 
 (defmethod element-of ((gl-alpha generalized-lattice) element)
   gl-alpha)
@@ -101,4 +99,7 @@
        (homomorphic-p rhs lhs)))
 
 (defmethod congruent-p ((lhs generalized-lattice) (rhs generalized-lattice))
-  (equal (supremum lhs) (supremum rhs)))
+  (and (equal (supremum lhs) (supremum rhs))
+       (equal (infimum lhs) (infimum rhs))
+       (equal (elements lhs) (elements rhs))
+       (equal (sublattices lhs) (sublattices rhs))))
