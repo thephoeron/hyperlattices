@@ -18,6 +18,7 @@ graph TB
     C --> D[PROBABILISTIC-HYPERLATTICE]
     B --> E[PROBABILISTIC-LATTICE]
     E --> D
+    F[POSET] --> A
 ```
 
 ### Generic Function API
