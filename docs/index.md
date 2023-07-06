@@ -8,7 +8,10 @@ This manual provides an overview of the interface and implementation of generali
 
 ## Basic Usage
 
+- [Posets](posets.md)
+- [Generalized Lattices](generalized-lattices.md)
 - [Lattices](lattices.md)
+- [Probabilistic Lattices](probabilistic-lattices.md)
 - [Hyperlattices](hyperlattices.md)
 - [Probabilistic Hyperlattices](probabilistic-hyperlattices.md)
 

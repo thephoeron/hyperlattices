@@ -23,6 +23,7 @@
   :serial t
   :components ((:file "generic-interface")
                (:file "hash-table-utils")
+               (:file "poset")
                (:file "generalized-lattice")
                (:file "lattice")
                (:file "probabilistic-lattice")
