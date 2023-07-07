@@ -5,7 +5,8 @@
   (:use c2cl
         hyperlattices/hash-table-utils
         hyperlattices/generic-interface
-        hyperlattices/generalized-lattice)
+        hyperlattices/hyperlattice
+        hyperlattices/probabilistic-lattice)
   (:export #:prob-hyperlattice-sup
            #:prob-hyperlattice-inf
            #:prob-hyperlattice
@@ -35,7 +36,7 @@
                                      :inf (inf-of a)))
 
 ;; Define a class to represent a probabilistic hyperlattice
-(defclass prob-hyperlattice ()
+(defclass prob-hyperlattice (hyperlattice probabilistic-lattice)
   ((elements :initarg :elements :accessor elements-of)
    (sup :initarg :sup :accessor sup-of)
    (inf :initarg :inf :accessor inf-of))

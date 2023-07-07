@@ -2,13 +2,13 @@
 
 (defpackage hyperlattices/generalized-lattice
   (:nicknames generalized-lattice)
-  (:use c2cl hyperlattices/generic-interface)
+  (:use c2cl hyperlattices/generic-interface hyperlattices/poset)
   (:export #:generalized-lattice)
   (:documentation "Implementation of the GENERALIZED-LATTICE superclass and dispatching methods. Not really intended for direct use, but exists for when the initial subtype is unknown and model-dependent."))
 
 (in-package :hyperlattices/generalized-lattice)
 
-(defclass generalized-lattice ()
+(defclass generalized-lattice (poset)
   ((elements :accessor elements :initarg :elements :initform nil)
    (sublattices :accessor sublattices :initarg :sublattices :initform nil))
   (:metaclass funcallable-standard-class)

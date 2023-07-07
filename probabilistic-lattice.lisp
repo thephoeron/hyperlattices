@@ -5,13 +5,13 @@
   (:use c2cl
         hyperlattices/hash-table-utils
         hyperlattices/generic-interface
-        hyperlattices/generalized-lattice)
+        hyperlattices/lattice)
   (:export)
   (:documentation "Implementation of PROBABILISTIC-LATTICE algebraic datatype's type class and method specializations."))
 
 (in-package :hyperlattices/probabilistic-lattice)
 
-(defclass probabilistic-lattice ()
+(defclass probabilistic-lattice (lattice)
   ((lattice :accessor lattice :initarg :lattice :type list)
    (probabilities :accessor probabilities :initarg :probabilities :type list)))
 

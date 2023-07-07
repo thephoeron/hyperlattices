@@ -5,7 +5,7 @@
   (:use c2cl
         hyperlattices/hash-table-utils
         hyperlattices/generic-interface
-        hyperlattices/generalized-lattice)
+        hyperlattices/lattice)
   (:export #:hyperlattice-sup
            #:hyperlattice-inf
            #:hyperlattice-add
@@ -35,7 +35,7 @@
                                 :inf (inf-of a)))
 
 ;; Define a class to represent a hyperlattice
-(defclass hyperlattice ()
+(defclass hyperlattice (lattice)
   ((elements :initarg :elements :accessor elements-of)
    (sup :initarg :sup :accessor sup-of)
    (inf :initarg :inf :accessor inf-of))

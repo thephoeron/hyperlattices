@@ -43,7 +43,7 @@
               'bottom))))
 
 ;; Define a class to represent a lattice
-(defclass lattice ()
+(defclass lattice (generalized-lattice)
   ((elements :initarg :elements :accessor elements-of)
    (sup :initarg :sup :accessor sup-of)
    (inf :initarg :inf :accessor inf-of))
