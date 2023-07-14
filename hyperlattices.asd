@@ -18,8 +18,8 @@
   :depends-on (alexandria
                serapeum
                closer-mop
-               trivial-types
-               baphomet)
+               ; baphomet
+               trivial-types)
   :serial t
   :components ((:file "generic-interface")
                (:file "hash-table-utils")

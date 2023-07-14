@@ -80,8 +80,8 @@
           slice)
         (error "Sublattice not found."))))
 
-(defmethod merge ((gl generalized-lattice) &rest gls)
-  (reduce #'merge gls :from-end t :initial-value gl))
+(defmethod combine ((gl generalized-lattice) &rest gls)
+  (reduce #'combine gls :from-end t :initial-value gl))
 
 (defmethod longest-chain-p ((gl generalized-lattice) chain)
   (= (length (chain gl)) (length chain)))

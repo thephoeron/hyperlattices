@@ -18,7 +18,7 @@
            #:chain
            #:antichain
            #:slice
-           #:merge
+           #:combine
            #:longest-chain-p
            #:largest-antichain-p
            #:homomorphic-p
@@ -28,22 +28,22 @@
 
 (in-package :hyperlattices/api)
 
-(defgeneric supremum (generalized-lattice)
+(defgeneric supremum (poset)
   (:documentation ""))
 
-(defgeneric infimum (generalized-lattice)
+(defgeneric infimum (poset)
   (:documentation ""))
 
-(defgeneric join (generalized-lattice)
+(defgeneric join (generalized-lattice &rest generalized-lattices)
   (:documentation ""))
 
-(defgeneric meet (generalized-lattice)
+(defgeneric meet (generalized-lattice &rest generalized-lattices)
   (:documentation ""))
 
-(defgeneric element-of (generalized-lattice)
+(defgeneric element-of (generalized-lattice element)
   (:documentation ""))
 
-(defgeneric relation-of (generalized-lattice)
+(defgeneric relation-of (generalized-lattice relation)
   (:documentation ""))
 
 (defgeneric supremum-of (generalized-lattice)
@@ -73,7 +73,7 @@
 (defgeneric slice (generalized-lattice sublattice)
   (:documentation ""))
 
-(defgeneric merge (generalized-lattice &rest generalized-lattices)
+(defgeneric combine (generalized-lattice &rest generalized-lattices)
   (:documentation ""))
 
 (defgeneric longest-chain-p (generalized-lattice chain)
